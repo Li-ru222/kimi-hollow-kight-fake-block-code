@@ -1,0 +1,53 @@
+{
+  "_comment": "空洞骑士复刻 · 伪造存档示例(可直接 JSON.parse 后写入 localStorage['hk_save_v2'] 再刷新)。字段与 loadGame()/buildSaveData() 对齐,见 pentest_report.pdf F1-F5。",
+  "ver": 999,
+  "t": 1731400000000,
+  "r": "cross_01",
+  "cr": "cross_01",
+  "cx": 0,
+  "cy": 0,
+  "g": 999999,
+  "s": 999,
+  "hp": 20,
+  "mhp": 20,
+  "nl": 99,
+  "bank": 2500,
+  "f": {
+    "canDash": true, "canWallJump": true, "canDoubleJump": true,
+    "hasDive": true, "hasWraiths": true, "wraithUp": true, "hasSpirit": true,
+    "canSuperDash": true, "superDash2": true, "hasIsmasTear": true, "cyclone": true,
+    "dreamNail": true, "dnailLevel": 3, "shadeCloak": true,
+    "bossDead": true, "bossDead2": true, "bossDead3": true,
+    "kingsBrand": true, "hasVoidHeart": true,
+    "dreamersDefeated": 3, "herrahDead": true, "kingsoul_pieces": 3,
+    "ending_achieved": true, "ending_type": 5, "colosseumCleared": true,
+    "allGrubsSaved": true, "grubsMask": true, "grubSongGot": true, "hunterMask": true,
+    "bought_notch4": true, "bought_notch5": true, "bought_notch6": true,
+    "bought_notch7": true, "bought_notch8": true,
+    "notch_basin": true, "notch_deep": true, "notch_hornet": true
+  },
+  "ch": [
+    "strength", "fragile_power", "fragile_strength", "soul_eater", "soul_catcher",
+    "quick_focus", "quick_soak", "nailmasters_glory", "swift_nail", "frenzycharm",
+    "hunter_mark", "longbrand", "dashmaster", "jonny", "stalwart_shell",
+    "palacecharm", "lifeheart", "honeycharm", "defenders_crest", "sporesac",
+    "traitorspike", "grubsong", "kingsoul", "abyss_heart", "dreamcatcher",
+    "collectorcharm", "lumen_cloak", "greedySeal", "toughShell",
+    "fragile_heart", "fragile_greed"
+  ],
+  "oc": [
+    "strength", "fragile_power", "fragile_strength", "soul_eater", "soul_catcher",
+    "quick_focus", "quick_soak", "nailmasters_glory", "swift_nail", "frenzycharm",
+    "hunter_mark", "longbrand", "dashmaster", "jonny", "stalwart_shell",
+    "palacecharm", "lifeheart", "honeycharm", "defenders_crest", "sporesac",
+    "traitorspike", "grubsong", "kingsoul", "abyss_heart", "dreamcatcher",
+    "collectorcharm", "lumen_cloak", "greedySeal", "toughShell",
+    "fragile_heart", "fragile_greed"
+  ],
+  "mn": 11,
+  "fr": {
+    "strength": { "o": 1, "b": 0 },
+    "heart":    { "o": 1, "b": 0 },
+    "greed":    { "o": 1, "b": 0 }
+  }
+}
